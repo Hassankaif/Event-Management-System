@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom'
 import './Events.css'
 
-const EventCard=({key ,id,heading,date,location,desc,img})=>{
+const EventCard=({id,heading,date,location,desc,img})=>{
     const {year,month }=date;
     return <>
-    <Link to={`/events/${key}`} > 
+    <Link to={`/events/${id}`} > 
     <div className='card'> 
         <div className='card-content'>
             <h3>{ heading} </h3>
