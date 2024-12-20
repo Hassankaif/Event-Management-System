@@ -26,8 +26,8 @@ A full-stack application to streamline event organization and coordination.
 - Advanced analytics for event insights.  
 ## Main Page
 
-![App Screenshot](public\ems1.png)
+![App Screenshot](./public/ems1.png)
 
 ## Event Details Page
-![App Screenshot](public\ems2.png)
+![App Screenshot](./public/ems2.png)
 
