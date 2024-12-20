@@ -1,22 +1,22 @@
 import { Link } from "react-router-dom";
-import './Navigation.css'
+import './Navigation.css';
 
-const NavBar=()=>{
-
-    return <>
-
-    <nav>
+const NavBar = () => {
+  return (
+    <>
+      <nav>
+        <h2>EVENT MANAGEMENT SYSTEM</h2>
         <ul>
-            <li>
-                <Link to='/'> HOME </Link>
-            </li>
-            <li>
-                <Link to='/find-events'> FIND EVENTS </Link>
-            </li>
+          <li>
+            <Link to="/">HOME</Link>
+          </li>
+          <li>
+            <Link to="/find-events">FIND EVENTS</Link>
+          </li>
         </ul>
-    </nav>
-    
+      </nav>
     </>
-}
+  );
+};
 
 export default NavBar;
